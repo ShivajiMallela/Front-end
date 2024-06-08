@@ -1,0 +1,70 @@
+<style>
+    .amazon {
+        color: rgb(0, 113, 133) ;
+        font-size: 20px;
+        transition: color 0.15s;
+    }
+    .amazon:hover {
+        color: orange;
+    }
+
+    .main-sentence {
+        font-weight: bold;
+        font-size: 50px;
+    }
+    .price {
+        color: rgb(0, 118, 0);
+        font-size: 40px;
+        font-weight: bold;
+    }
+    .text {
+        font-size: 35px;
+    }
+
+    .add-to-cart {
+        background-color: rgb(255, 216, 20);
+        height: 50px;
+        width: 120px;
+        font-size: 15px;
+        border: none;
+        border-radius: 25px;
+        margin-right: 10px;
+        cursor: pointer;
+    }
+
+    .add-to-cart:hover {
+        color:rgb(151, 20, 20);
+    }
+
+    .add-to-cart:active {
+        opacity: 0.5
+    }
+
+    .buy-now {
+        background-color: rgb(255, 164, 28);
+        height: 50px;
+        width: 120px;
+        font-size: 15px;
+        border: none;
+        border-radius: 25px;
+        cursor: pointer;
+        transition: background-color 1s, opacity 1s;
+    }
+
+    .buy-now:hover {
+        background-color: rgb(250, 137, 0);
+    }
+
+    .buy-now:active {
+        opacity: 0.5;
+    }
+    
+</style>
+<a class= "amazon" href="https://www.amazon.com/" target="_blank">
+    Back to Amazon
+</a>
+<p class="main-sentence">Nike Black Running Shoes</p>
+<p class="price">$39 - in stock.</p>
+<p class="text">Free delivery tomorrow.</p>
+<button class="add-to-cart">Add to Cart</button>
+<button class="buy-now">Buy now</button>
